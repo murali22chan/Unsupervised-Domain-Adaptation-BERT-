@@ -1,0 +1,28 @@
+Experiment Details
+Training Data: finance Testing Data: medicine Training Sequnce Length: 128 Testing Sequence Length: 32
+Some weights of the model checkpoint at bert-base-uncased were not used when initializing BertModel: ['cls.predictions.bias', 'cls.predictions.transform.LayerNorm.bias', 'cls.seq_relationship.bias', 'cls.seq_relationship.weight', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.dense.weight', 'cls.predictions.decoder.weight', 'cls.predictions.transform.dense.bias']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+  0%|                                                                                                                                                                                     | 0/3 [00:03<?, ?it/s]
+Traceback (most recent call last):
+  File "D:\Thesis\Domain Adaptation (Unsupervised DA through backpropagation)\main.py", line 361, in <module>
+    loss = model(source_input_ids=sent_id,
+  File "C:\Users\mural\Envs\ML\lib\site-packages\torch\nn\modules\module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "D:\Thesis\Domain Adaptation (Unsupervised DA through backpropagation)\main.py", line 94, in forward
+    target_outputs = self.bert(target_input_ids, attention_mask=target_attention_mask)
+  File "C:\Users\mural\Envs\ML\lib\site-packages\torch\nn\modules\module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "C:\Users\mural\Envs\ML\lib\site-packages\transformers\models\bert\modeling_bert.py", line 1012, in forward
+    embedding_output = self.embeddings(
+  File "C:\Users\mural\Envs\ML\lib\site-packages\torch\nn\modules\module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "C:\Users\mural\Envs\ML\lib\site-packages\transformers\models\bert\modeling_bert.py", line 230, in forward
+    inputs_embeds = self.word_embeddings(input_ids)
+  File "C:\Users\mural\Envs\ML\lib\site-packages\torch\nn\modules\module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "C:\Users\mural\Envs\ML\lib\site-packages\torch\nn\modules\sparse.py", line 160, in forward
+    return F.embedding(
+  File "C:\Users\mural\Envs\ML\lib\site-packages\torch\nn\functional.py", line 2210, in embedding
+    return torch.embedding(weight, input, padding_idx, scale_grad_by_freq, sparse)
+RuntimeError: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu! (when checking argument for argument index in method wrapper__index_select)

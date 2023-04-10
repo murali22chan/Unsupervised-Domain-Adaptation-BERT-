@@ -1,0 +1,8 @@
+Experiment Details
+Training Data: finance Testing Data: finance Training Sequnce Length: 128 Testing Sequence Length: 32
+Traceback (most recent call last):
+  File "D:\Thesis\Domain Adaptation (Unsupervised DA through backpropagation)\main.py", line 125, in <module>
+    train_text, train_labels, val_text, val_labels, test_text, test_labels = split_data_training_validation_testing_same_domain(train_df)
+  File "D:\Thesis\Domain Adaptation (Unsupervised DA through backpropagation)\main.py", line 87, in split_data_training_validation_testing_same_domain
+    train_text, temp_text, train_labels, temp_labels = train_test_split(train_df['answer'], train_df['label'],
+NameError: name 'train_test_split' is not defined

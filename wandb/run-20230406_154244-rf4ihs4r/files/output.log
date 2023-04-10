@@ -1,0 +1,16 @@
+Experiment Details
+Training Data: finance Testing Data: medicine Training Sequnce Length: 128 Testing Sequence Length: 32
+Traceback (most recent call last):
+  File "D:\Thesis\Domain Adaptation (Unsupervised DA through backpropagation)\main.py", line 299, in <module>
+    _, _, test_dataloader = create_dataset_loader(train_text, train_labels, val_text, val_labels, test_text, test_labels, trainSequenceLength, testSequenceLength, batch_size)
+  File "D:\Thesis\Domain Adaptation (Unsupervised DA through backpropagation)\main.py", line 134, in create_dataset_loader
+    tokens_train = tokenizer.batch_encode_plus(
+  File "C:\Users\mural\Envs\ML\lib\site-packages\transformers\tokenization_utils_base.py", line 2800, in batch_encode_plus
+    return self._batch_encode_plus(
+  File "C:\Users\mural\Envs\ML\lib\site-packages\transformers\tokenization_utils.py", line 737, in _batch_encode_plus
+    batch_outputs = self._batch_prepare_for_model(
+  File "C:\Users\mural\Envs\ML\lib\site-packages\transformers\tokenization_utils.py", line 785, in _batch_prepare_for_model
+    outputs = self.prepare_for_model(
+  File "C:\Users\mural\Envs\ML\lib\site-packages\transformers\tokenization_utils_base.py", line 3192, in prepare_for_model
+    batch_outputs = BatchEncoding(
+KeyboardInterrupt

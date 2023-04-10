@@ -1,0 +1,37 @@
+Experiment Details
+Training Data: finance Testing Data: medicine Training Sequnce Length: 128 Testing Sequence Length: 32
+Some weights of the model checkpoint at bert-base-uncased were not used when initializing BertModel: ['cls.predictions.transform.dense.bias', 'cls.predictions.bias', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.decoder.weight', 'cls.seq_relationship.weight', 'cls.seq_relationship.bias']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+  0%|                                                                                                                                                                                     | 0/3 [00:00<?, ?it/s]
+  0%|                                                                                                                                                                                     | 0/3 [00:00<?, ?it/s]C:\Users\mural\Envs\ML\lib\site-packages\sklearn\metrics\_classification.py:1334: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+C:\Users\mural\Envs\ML\lib\site-packages\sklearn\metrics\_classification.py:1334: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+C:\Users\mural\Envs\ML\lib\site-packages\sklearn\metrics\_classification.py:1334: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+  0%|                                                                                                                                                                                     | 0/3 [00:21<?, ?it/s]
+Traceback (most recent call last):
+  File "D:\Thesis\Domain Adaptation (Unsupervised DA through backpropagation)\main.py", line 469, in <module>
+    valid_loss, val_preds = evaluate(val_dataloader)
+  File "D:\Thesis\Domain Adaptation (Unsupervised DA through backpropagation)\main.py", line 289, in evaluate
+    loss, preds = model(source_input_ids = sent_id, source_attention_mask=mask, target_input_ids=None, target_attention_mask=None, human_machine_labels=labels)
+  File "C:\Users\mural\Envs\ML\lib\site-packages\torch\nn\modules\module.py", line 1212, in _call_impl
+    result = forward_call(*input, **kwargs)
+  File "D:\Thesis\Domain Adaptation (Unsupervised DA through backpropagation)\main.py", line 83, in forward
+    source_outputs = self.bert(source_input_ids, attention_mask=source_attention_mask)
+  File "C:\Users\mural\Envs\ML\lib\site-packages\torch\nn\modules\module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "C:\Users\mural\Envs\ML\lib\site-packages\transformers\models\bert\modeling_bert.py", line 1012, in forward
+    embedding_output = self.embeddings(
+  File "C:\Users\mural\Envs\ML\lib\site-packages\torch\nn\modules\module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "C:\Users\mural\Envs\ML\lib\site-packages\transformers\models\bert\modeling_bert.py", line 231, in forward
+    token_type_embeddings = self.token_type_embeddings(token_type_ids)
+  File "C:\Users\mural\Envs\ML\lib\site-packages\torch\nn\modules\module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "C:\Users\mural\Envs\ML\lib\site-packages\torch\nn\modules\sparse.py", line 160, in forward
+    return F.embedding(
+  File "C:\Users\mural\Envs\ML\lib\site-packages\torch\nn\functional.py", line 2210, in embedding
+    return torch.embedding(weight, input, padding_idx, scale_grad_by_freq, sparse)
+KeyboardInterrupt

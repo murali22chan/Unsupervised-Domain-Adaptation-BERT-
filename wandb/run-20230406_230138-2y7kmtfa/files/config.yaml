@@ -1,0 +1,53 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.14.0
+    framework: huggingface
+    huggingface_version: 4.26.0
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    python_version: 3.9.13
+    start_time: 1680836498.533703
+    t:
+      1:
+      - 1
+      - 5
+      - 11
+      - 49
+      - 51
+      - 53
+      - 55
+      2:
+      - 1
+      - 5
+      - 11
+      - 49
+      - 51
+      - 53
+      - 55
+      3:
+      - 16
+      - 23
+      4: 3.9.13
+      5: 0.14.0
+      6: 4.26.0
+      8:
+      - 3
+      - 5
+is_downsample:
+  desc: null
+  value: false
+testDomain:
+  desc: null
+  value: medicine
+testSeqLength:
+  desc: null
+  value: 32
+trainDomain:
+  desc: null
+  value: finance
+trainSeqLength:
+  desc: null
+  value: 128

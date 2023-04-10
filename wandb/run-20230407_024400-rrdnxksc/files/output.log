@@ -1,0 +1,99 @@
+Experiment Details
+Training Data: finance Testing Data: medicine Training Sequnce Length: 128 Testing Sequence Length: 32
+Some weights of the model checkpoint at bert-base-uncased were not used when initializing BertModel: ['cls.predictions.transform.dense.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.seq_relationship.bias', 'cls.predictions.decoder.weight', 'cls.predictions.bias', 'cls.seq_relationship.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.transform.dense.weight']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+  0%|                                                                                                                                                                                     | 0/3 [00:00<?, ?it/s]
+  0%|                                                                                                                                                                                     | 0/3 [00:00<?, ?it/s]C:\Users\mural\Envs\ML\lib\site-packages\sklearn\metrics\_classification.py:1334: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+C:\Users\mural\Envs\ML\lib\site-packages\sklearn\metrics\_classification.py:1334: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+C:\Users\mural\Envs\ML\lib\site-packages\sklearn\metrics\_classification.py:1334: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+[[0.8709878  0.12901221]
+ [0.8696311  0.13036884]
+ [0.8635536  0.13644637]
+ ...
+ [0.8660228  0.13397714]
+ [0.8688743  0.13112566]
+ [0.8687906  0.13120931]]
+[[0.7510616  0.24893835]
+ [0.75075734 0.24924263]
+ [0.7445869  0.25541312]
+ ...
+ [0.739975   0.26002496]
+ [0.7390176  0.26098236]
+ [0.747001   0.252999  ]]
+[[0.4842892  0.5157108 ]
+ [0.4257318  0.5742682 ]
+ [0.4242908  0.57570916]
+ ...
+ [0.42671093 0.57328904]
+ [0.42459318 0.5754068 ]
+ [0.42672706 0.57327294]]
+C:\Users\mural\Envs\ML\lib\site-packages\sklearn\metrics\_classification.py:1334: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+C:\Users\mural\Envs\ML\lib\site-packages\sklearn\metrics\_classification.py:1334: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+C:\Users\mural\Envs\ML\lib\site-packages\sklearn\metrics\_classification.py:1334: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+[[0.42879248 0.5712075 ]
+ [0.34997502 0.650025  ]
+ [0.33253068 0.6674693 ]
+ ...
+ [0.3431649  0.6568351 ]
+ [0.33548453 0.6645155 ]
+ [0.33628187 0.6637181 ]]
+[[0.38236544 0.6176346 ]
+ [0.3791412  0.6208588 ]
+ [0.43525288 0.5647471 ]
+ ...
+ [0.41073012 0.5892699 ]
+ [0.43037158 0.5696284 ]
+ [0.4150151  0.5849849 ]]
+C:\Users\mural\Envs\ML\lib\site-packages\sklearn\metrics\_classification.py:1334: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+C:\Users\mural\Envs\ML\lib\site-packages\sklearn\metrics\_classification.py:1334: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+C:\Users\mural\Envs\ML\lib\site-packages\sklearn\metrics\_classification.py:1334: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+[[0.7984377  0.20156227]
+ [0.32453328 0.6754667 ]
+ [0.31349257 0.6865074 ]
+ ...
+ [0.31323683 0.6867632 ]
+ [0.31227916 0.68772084]
+ [0.31455135 0.6854487 ]]
+C:\Users\mural\Envs\ML\lib\site-packages\sklearn\metrics\_classification.py:1334: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+C:\Users\mural\Envs\ML\lib\site-packages\sklearn\metrics\_classification.py:1334: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+C:\Users\mural\Envs\ML\lib\site-packages\sklearn\metrics\_classification.py:1334: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+[[0.9550478  0.04495215]
+ [0.9444126  0.0555874 ]
+ [0.9490298  0.05097022]
+ ...
+ [0.9443905  0.05560949]
+ [0.94449705 0.05550298]
+ [0.94791985 0.05208017]]
+C:\Users\mural\Envs\ML\lib\site-packages\sklearn\metrics\_classification.py:1334: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+C:\Users\mural\Envs\ML\lib\site-packages\sklearn\metrics\_classification.py:1334: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+C:\Users\mural\Envs\ML\lib\site-packages\sklearn\metrics\_classification.py:1334: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+[[0.8757185  0.12428153]
+ [0.80946445 0.1905355 ]
+ [0.8096175  0.19038253]
+ ...
+ [0.8094275  0.19057253]
+ [0.80950314 0.19049689]
+ [0.8094594  0.19054066]]
+  0%|                                                                                                                                                                                     | 0/3 [01:45<?, ?it/s]
+Traceback (most recent call last):
+  File "D:\Thesis\Domain Adaptation (Unsupervised DA through backpropagation)\main.py", line 471, in <module>
+    valid_loss, val_preds = evaluate(val_dataloader)
+  File "D:\Thesis\Domain Adaptation (Unsupervised DA through backpropagation)\main.py", line 291, in evaluate
+    total_loss = total_loss + loss.item()
+KeyboardInterrupt

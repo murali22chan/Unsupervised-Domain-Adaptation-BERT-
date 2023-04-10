@@ -1,0 +1,6 @@
+Experiment Details
+Training Data: finance Testing Data: finance Training Sequnce Length: 128 Testing Sequence Length: 32
+Traceback (most recent call last):
+  File "D:\Thesis\Domain Adaptation (Unsupervised DA through backpropagation)\main.py", line 174, in <module>
+    model = BertDomainAdaptation(num_labels=2, alpha=0.5)
+TypeError: __init__() missing 1 required positional argument: 'beta'

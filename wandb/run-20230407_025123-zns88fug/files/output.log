@@ -1,0 +1,22 @@
+Experiment Details
+Training Data: finance Testing Data: medicine Training Sequnce Length: 128 Testing Sequence Length: 32
+Epoch:  1
+Some weights of the model checkpoint at bert-base-uncased were not used when initializing BertModel: ['cls.seq_relationship.weight', 'cls.predictions.transform.dense.weight', 'cls.seq_relationship.bias', 'cls.predictions.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.decoder.weight', 'cls.predictions.transform.dense.bias']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+  0%|                                                                                                                                                                                     | 0/3 [00:00<?, ?it/s]
+0it [00:00, ?it/s]
+[[0.6221501  0.37784988]
+ [0.21359125 0.7864087 ]
+ [0.28320363 0.7167964 ]
+ ...
+ [0.27018678 0.7298133 ]
+ [0.13617088 0.8638291 ]
+
+  0%|                                                                                                                                                                                     | 0/3 [00:20<?, ?it/s]
+Traceback (most recent call last):
+  File "D:\Thesis\Domain Adaptation (Unsupervised DA through backpropagation)\main.py", line 472, in <module>
+    valid_loss, val_preds = evaluate(val_dataloader)
+  File "D:\Thesis\Domain Adaptation (Unsupervised DA through backpropagation)\main.py", line 291, in evaluate
+    total_loss = total_loss + loss.item()
+KeyboardInterrupt

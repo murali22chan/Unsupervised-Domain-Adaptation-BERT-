@@ -1,0 +1,6 @@
+Experiment Details
+Training Data: finance Testing Data: finance Training Sequnce Length: 128 Testing Sequence Length: 32
+Traceback (most recent call last):
+  File "D:\Thesis\Domain Adaptation (Unsupervised DA through backpropagation)\main.py", line 168, in <module>
+    source_labels_tensor = torch.tensor(source_labels.long())
+AttributeError: 'list' object has no attribute 'long'

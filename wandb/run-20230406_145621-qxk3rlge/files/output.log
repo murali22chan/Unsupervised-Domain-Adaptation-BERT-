@@ -1,0 +1,14 @@
+Experiment Details
+Training Data: finance Testing Data: medicine Training Sequnce Length: 128 Testing Sequence Length: 32
+torch.Size([5782, 128])
+torch.Size([1205, 128])
+torch.Size([5782, 128])
+torch.Size([1205, 128])
+Traceback (most recent call last):
+  File "D:\Thesis\Domain Adaptation (Unsupervised DA through backpropagation)\main.py", line 291, in <module>
+    train_dataloader, val_dataloader = create_dataset_loader_DA(train_text, train_labels, val_text, val_labels,train_text_cd, train_labels_cd, trainSequenceLength, testSequenceLength, batch_size)
+  File "D:\Thesis\Domain Adaptation (Unsupervised DA through backpropagation)\main.py", line 231, in create_dataset_loader_DA
+    train_data = TensorDataset(train_seq, train_mask, train_y, train_cd_seq, train_cd_mask)
+  File "C:\Users\mural\Envs\ML\lib\site-packages\torch\utils\data\dataset.py", line 189, in __init__
+    assert all(tensors[0].size(0) == tensor.size(0) for tensor in tensors), "Size mismatch between tensors"
+AssertionError: Size mismatch between tensors

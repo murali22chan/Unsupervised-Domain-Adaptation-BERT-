@@ -1,0 +1,118 @@
+Experiment Details
+Training Data: finance Testing Data: medicine Training Sequnce Length: 128 Testing Sequence Length: 32
+Some weights of the model checkpoint at bert-base-uncased were not used when initializing BertModel: ['cls.seq_relationship.bias', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.decoder.weight', 'cls.seq_relationship.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.transform.dense.weight']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+  0%|                                                                                                                                                                                     | 0/3 [00:00<?, ?it/s]C:\Users\mural\Envs\ML\lib\site-packages\sklearn\metrics\_classification.py:1334: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+C:\Users\mural\Envs\ML\lib\site-packages\sklearn\metrics\_classification.py:1334: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+C:\Users\mural\Envs\ML\lib\site-packages\sklearn\metrics\_classification.py:1334: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+[[0.7256367  0.27436325]
+ [0.7449058  0.25509414]
+ [0.7140489  0.28595105]
+ ...
+ [0.74662244 0.2533775 ]
+ [0.75339437 0.24660562]
+ [0.753197   0.24680305]]
+C:\Users\mural\Envs\ML\lib\site-packages\sklearn\metrics\_classification.py:1334: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+C:\Users\mural\Envs\ML\lib\site-packages\sklearn\metrics\_classification.py:1334: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+C:\Users\mural\Envs\ML\lib\site-packages\sklearn\metrics\_classification.py:1334: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+[[0.8840173  0.11598274]
+ [0.88771737 0.11228265]
+ [0.8829071  0.11709287]
+ ...
+ [0.88546497 0.11453507]
+ [0.88431865 0.11568136]
+ [0.88581765 0.1141824 ]]
+C:\Users\mural\Envs\ML\lib\site-packages\sklearn\metrics\_classification.py:1334: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+C:\Users\mural\Envs\ML\lib\site-packages\sklearn\metrics\_classification.py:1334: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+C:\Users\mural\Envs\ML\lib\site-packages\sklearn\metrics\_classification.py:1334: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+[[0.10872322 0.8912768 ]
+ [0.10035731 0.8996427 ]
+ [0.10055846 0.89944154]
+ ...
+ [0.10050944 0.8994906 ]
+ [0.10054591 0.89945406]
+ [0.1005704  0.89942956]]
+C:\Users\mural\Envs\ML\lib\site-packages\sklearn\metrics\_classification.py:1334: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+C:\Users\mural\Envs\ML\lib\site-packages\sklearn\metrics\_classification.py:1334: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+C:\Users\mural\Envs\ML\lib\site-packages\sklearn\metrics\_classification.py:1334: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+[[0.727836   0.27216393]
+ [0.71356976 0.28643024]
+ [0.70896524 0.29103476]
+ ...
+ [0.8806422  0.11935789]
+ [0.714874   0.28512597]
+ [0.71462613 0.2853739 ]]
+C:\Users\mural\Envs\ML\lib\site-packages\sklearn\metrics\_classification.py:1334: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+C:\Users\mural\Envs\ML\lib\site-packages\sklearn\metrics\_classification.py:1334: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+C:\Users\mural\Envs\ML\lib\site-packages\sklearn\metrics\_classification.py:1334: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+[[0.6234953  0.37650466]
+ [0.85082287 0.14917715]
+ [0.8507178  0.14928225]
+ ...
+ [0.85079473 0.14920531]
+ [0.85075736 0.14924262]
+ [0.8507679  0.14923209]]
+C:\Users\mural\Envs\ML\lib\site-packages\sklearn\metrics\_classification.py:1334: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+C:\Users\mural\Envs\ML\lib\site-packages\sklearn\metrics\_classification.py:1334: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+C:\Users\mural\Envs\ML\lib\site-packages\sklearn\metrics\_classification.py:1334: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+[[0.38470942 0.6152906 ]
+ [0.38446587 0.6155341 ]
+ [0.38438717 0.61561286]
+ ...
+ [0.38443372 0.6155663 ]
+ [0.38443616 0.61556387]
+ [0.38440457 0.6155954 ]]
+  0%|                                                                                                                                                                                     | 0/3 [01:19<?, ?it/s]
+Traceback (most recent call last):
+  File "D:\Thesis\Domain Adaptation (Unsupervised DA through backpropagation)\main.py", line 469, in <module>
+    valid_loss, val_preds = evaluate(val_dataloader)
+  File "D:\Thesis\Domain Adaptation (Unsupervised DA through backpropagation)\main.py", line 289, in evaluate
+    loss, preds = model(source_input_ids = sent_id, source_attention_mask=mask, target_input_ids=None, target_attention_mask=None, human_machine_labels=labels)
+  File "C:\Users\mural\Envs\ML\lib\site-packages\torch\nn\modules\module.py", line 1212, in _call_impl
+    result = forward_call(*input, **kwargs)
+  File "D:\Thesis\Domain Adaptation (Unsupervised DA through backpropagation)\main.py", line 83, in forward
+    source_outputs = self.bert(source_input_ids, attention_mask=source_attention_mask)
+  File "C:\Users\mural\Envs\ML\lib\site-packages\torch\nn\modules\module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "C:\Users\mural\Envs\ML\lib\site-packages\transformers\models\bert\modeling_bert.py", line 1019, in forward
+    encoder_outputs = self.encoder(
+  File "C:\Users\mural\Envs\ML\lib\site-packages\torch\nn\modules\module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "C:\Users\mural\Envs\ML\lib\site-packages\transformers\models\bert\modeling_bert.py", line 609, in forward
+    layer_outputs = layer_module(
+  File "C:\Users\mural\Envs\ML\lib\site-packages\torch\nn\modules\module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "C:\Users\mural\Envs\ML\lib\site-packages\transformers\models\bert\modeling_bert.py", line 495, in forward
+    self_attention_outputs = self.attention(
+  File "C:\Users\mural\Envs\ML\lib\site-packages\torch\nn\modules\module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "C:\Users\mural\Envs\ML\lib\site-packages\transformers\models\bert\modeling_bert.py", line 425, in forward
+    self_outputs = self.self(
+  File "C:\Users\mural\Envs\ML\lib\site-packages\torch\nn\modules\module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "C:\Users\mural\Envs\ML\lib\site-packages\transformers\models\bert\modeling_bert.py", line 284, in forward
+    mixed_query_layer = self.query(hidden_states)
+  File "C:\Users\mural\Envs\ML\lib\site-packages\torch\nn\modules\module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "C:\Users\mural\Envs\ML\lib\site-packages\torch\nn\modules\linear.py", line 114, in forward
+    return F.linear(input, self.weight, self.bias)
+KeyboardInterrupt

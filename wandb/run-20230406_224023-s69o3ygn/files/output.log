@@ -1,0 +1,20 @@
+Experiment Details
+Training Data: finance Testing Data: medicine Training Sequnce Length: 128 Testing Sequence Length: 32
+Traceback (most recent call last):
+  File "D:\Thesis\Domain Adaptation (Unsupervised DA through backpropagation)\main.py", line 317, in <module>
+    train_dataloader, val_dataloader, train_dataloader_cd = create_dataset_loader_DA(train_text, train_labels, val_text, val_labels,train_text_cd, train_labels_cd, trainSequenceLength, testSequenceLength, batch_size)
+  File "D:\Thesis\Domain Adaptation (Unsupervised DA through backpropagation)\main.py", line 201, in create_dataset_loader_DA
+    tokens_train = tokenizer.batch_encode_plus(
+  File "C:\Users\mural\Envs\ML\lib\site-packages\transformers\tokenization_utils_base.py", line 2800, in batch_encode_plus
+    return self._batch_encode_plus(
+  File "C:\Users\mural\Envs\ML\lib\site-packages\transformers\tokenization_utils.py", line 733, in _batch_encode_plus
+    first_ids = get_input_ids(ids)
+  File "C:\Users\mural\Envs\ML\lib\site-packages\transformers\tokenization_utils.py", line 700, in get_input_ids
+    tokens = self.tokenize(text, **kwargs)
+  File "C:\Users\mural\Envs\ML\lib\site-packages\transformers\tokenization_utils.py", line 547, in tokenize
+    tokenized_text.extend(self._tokenize(token))
+  File "C:\Users\mural\Envs\ML\lib\site-packages\transformers\models\bert\tokenization_bert.py", line 250, in _tokenize
+    split_tokens += self.wordpiece_tokenizer.tokenize(token)
+  File "C:\Users\mural\Envs\ML\lib\site-packages\transformers\models\bert\tokenization_bert.py", line 562, in tokenize
+    break
+KeyboardInterrupt

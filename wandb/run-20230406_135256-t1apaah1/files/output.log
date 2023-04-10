@@ -1,0 +1,13 @@
+Experiment Details
+Training Data: finance Testing Data: finance Training Sequnce Length: 128 Testing Sequence Length: 32
+Traceback (most recent call last):
+  File "C:\Users\mural\Envs\ML\lib\site-packages\transformers\tokenization_utils_base.py", line 248, in __getattr__
+    return self.data[item]
+KeyError: 'long'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "D:\Thesis\Domain Adaptation (Unsupervised DA through backpropagation)\main.py", line 169, in <module>
+    source_encodings = tokenizer(source_texts, padding=True, truncation=True, return_tensors='pt').long()
+  File "C:\Users\mural\Envs\ML\lib\site-packages\transformers\tokenization_utils_base.py", line 250, in __getattr__
+    raise AttributeError
+AttributeError

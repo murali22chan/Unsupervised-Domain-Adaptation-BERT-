@@ -1,0 +1,213 @@
+2023-04-07 02:36:08,848 INFO    StreamThr :54648 [internal.py:wandb_internal():87] W&B internal server running at pid: 54648, started at: 2023-04-07 02:36:08.848424
+2023-04-07 02:36:08,849 DEBUG   HandlerThread:54648 [handler.py:handle_request():144] handle_request: status
+2023-04-07 02:36:08,850 INFO    WriterThread:54648 [datastore.py:open_for_write():85] open: D:\Thesis\Domain Adaptation (Unsupervised DA through backpropagation)\wandb\run-20230407_023608-sxbptxz7\run-sxbptxz7.wandb
+2023-04-07 02:36:08,852 DEBUG   SenderThread:54648 [sender.py:send():336] send: header
+2023-04-07 02:36:08,852 DEBUG   SenderThread:54648 [sender.py:send():336] send: run
+2023-04-07 02:36:09,189 INFO    SenderThread:54648 [dir_watcher.py:__init__():219] watching files in: D:\Thesis\Domain Adaptation (Unsupervised DA through backpropagation)\wandb\run-20230407_023608-sxbptxz7\files
+2023-04-07 02:36:09,189 DEBUG   HandlerThread:54648 [handler.py:handle_request():144] handle_request: check_version
+2023-04-07 02:36:09,189 INFO    SenderThread:54648 [sender.py:_start_run_threads():1078] run started: sxbptxz7 with start time 1680849368.846917
+2023-04-07 02:36:09,189 DEBUG   SenderThread:54648 [sender.py:send_request():363] send_request: summary_record
+2023-04-07 02:36:09,190 INFO    SenderThread:54648 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-04-07 02:36:09,190 DEBUG   SenderThread:54648 [sender.py:send_request():363] send_request: check_version
+2023-04-07 02:36:09,339 DEBUG   HandlerThread:54648 [handler.py:handle_request():144] handle_request: run_start
+2023-04-07 02:36:09,358 DEBUG   HandlerThread:54648 [system_info.py:__init__():31] System info init
+2023-04-07 02:36:09,358 DEBUG   HandlerThread:54648 [system_info.py:__init__():46] System info init done
+2023-04-07 02:36:09,358 INFO    HandlerThread:54648 [system_monitor.py:start():183] Starting system monitor
+2023-04-07 02:36:09,359 INFO    SystemMonitor:54648 [system_monitor.py:_start():147] Starting system asset monitoring threads
+2023-04-07 02:36:09,359 INFO    HandlerThread:54648 [system_monitor.py:probe():204] Collecting system info
+2023-04-07 02:36:09,368 INFO    SystemMonitor:54648 [interfaces.py:start():187] Started cpu monitoring
+2023-04-07 02:36:09,369 INFO    SystemMonitor:54648 [interfaces.py:start():187] Started disk monitoring
+2023-04-07 02:36:09,369 INFO    SystemMonitor:54648 [interfaces.py:start():187] Started gpu monitoring
+2023-04-07 02:36:09,385 INFO    SystemMonitor:54648 [interfaces.py:start():187] Started memory monitoring
+2023-04-07 02:36:09,395 INFO    SystemMonitor:54648 [interfaces.py:start():187] Started network monitoring
+2023-04-07 02:36:09,405 DEBUG   HandlerThread:54648 [system_info.py:probe():195] Probing system
+2023-04-07 02:36:09,405 DEBUG   HandlerThread:54648 [git.py:repo():40] git repository is invalid
+2023-04-07 02:36:09,406 DEBUG   HandlerThread:54648 [system_info.py:probe():240] Probing system done
+2023-04-07 02:36:09,406 DEBUG   HandlerThread:54648 [system_monitor.py:probe():213] {'os': 'Windows-10-10.0.22621-SP0', 'python': '3.9.13', 'heartbeatAt': '2023-04-07T06:36:09.405238', 'startedAt': '2023-04-07T06:36:08.842408', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'D:\\Thesis\\Domain Adaptation (Unsupervised DA through backpropagation)\\main.py', 'codePath': 'main.py', 'host': 'Muralidharan', 'username': 'mural', 'executable': 'C:\\Users\\mural\\Envs\\ML\\Scripts\\python.exe', 'cpu_count': 8, 'cpu_count_logical': 16, 'cpu_freq': {'current': 3301.0, 'min': 0.0, 'max': 3301.0}, 'cpu_freq_per_core': [{'current': 3301.0, 'min': 0.0, 'max': 3301.0}], 'disk': {'total': 229.99999618530273, 'used': 62.47401428222656}, 'gpu': 'NVIDIA GeForce RTX 3070 Ti Laptop GPU', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 3070 Ti Laptop GPU', 'memory_total': 8589934592}], 'memory': {'total': 15.24422836303711}}
+2023-04-07 02:36:09,406 INFO    HandlerThread:54648 [system_monitor.py:probe():214] Finished collecting system info
+2023-04-07 02:36:09,406 INFO    HandlerThread:54648 [system_monitor.py:probe():217] Publishing system info
+2023-04-07 02:36:09,406 DEBUG   HandlerThread:54648 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-04-07 02:36:09,406 DEBUG   HandlerThread:54648 [system_info.py:_save_pip():67] Saving pip packages done
+2023-04-07 02:36:09,407 INFO    HandlerThread:54648 [system_monitor.py:probe():219] Finished publishing system info
+2023-04-07 02:36:09,410 DEBUG   SenderThread:54648 [sender.py:send():336] send: files
+2023-04-07 02:36:09,410 INFO    SenderThread:54648 [sender.py:_save_file():1332] saving file wandb-metadata.json with policy now
+2023-04-07 02:36:09,415 DEBUG   HandlerThread:54648 [handler.py:handle_request():144] handle_request: stop_status
+2023-04-07 02:36:09,415 DEBUG   SenderThread:54648 [sender.py:send_request():363] send_request: stop_status
+2023-04-07 02:36:09,420 ERROR   gpu       :54648 [interfaces.py:monitor():141] Failed to sample metric: Not Supported
+2023-04-07 02:36:09,551 DEBUG   SenderThread:54648 [sender.py:send():336] send: telemetry
+2023-04-07 02:36:09,954 INFO    wandb-upload_0:54648 [upload_job.py:push():138] Uploaded file C:\Users\mural\AppData\Local\Temp\tmpnz7g9d8gwandb\3w2gl6do-wandb-metadata.json
+2023-04-07 02:36:10,192 INFO    Thread-17 :54648 [dir_watcher.py:_on_file_created():278] file/dir created: D:\Thesis\Domain Adaptation (Unsupervised DA through backpropagation)\wandb\run-20230407_023608-sxbptxz7\files\output.log
+2023-04-07 02:36:10,192 INFO    Thread-17 :54648 [dir_watcher.py:_on_file_created():278] file/dir created: D:\Thesis\Domain Adaptation (Unsupervised DA through backpropagation)\wandb\run-20230407_023608-sxbptxz7\files\requirements.txt
+2023-04-07 02:36:10,192 INFO    Thread-17 :54648 [dir_watcher.py:_on_file_created():278] file/dir created: D:\Thesis\Domain Adaptation (Unsupervised DA through backpropagation)\wandb\run-20230407_023608-sxbptxz7\files\wandb-metadata.json
+2023-04-07 02:36:10,192 INFO    Thread-17 :54648 [dir_watcher.py:_on_file_created():278] file/dir created: D:\Thesis\Domain Adaptation (Unsupervised DA through backpropagation)\wandb\run-20230407_023608-sxbptxz7\files\wandb-summary.json
+2023-04-07 02:36:11,432 ERROR   gpu       :54648 [interfaces.py:monitor():141] Failed to sample metric: Not Supported
+2023-04-07 02:36:12,191 INFO    Thread-17 :54648 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Thesis\Domain Adaptation (Unsupervised DA through backpropagation)\wandb\run-20230407_023608-sxbptxz7\files\output.log
+2023-04-07 02:36:13,452 ERROR   gpu       :54648 [interfaces.py:monitor():141] Failed to sample metric: Not Supported
+2023-04-07 02:36:14,554 DEBUG   HandlerThread:54648 [handler.py:handle_request():144] handle_request: status_report
+2023-04-07 02:36:15,462 ERROR   gpu       :54648 [interfaces.py:monitor():141] Failed to sample metric: Not Supported
+2023-04-07 02:36:17,480 ERROR   gpu       :54648 [interfaces.py:monitor():141] Failed to sample metric: Not Supported
+2023-04-07 02:36:19,501 ERROR   gpu       :54648 [interfaces.py:monitor():141] Failed to sample metric: Not Supported
+2023-04-07 02:36:19,557 DEBUG   HandlerThread:54648 [handler.py:handle_request():144] handle_request: status_report
+2023-04-07 02:36:21,516 ERROR   gpu       :54648 [interfaces.py:monitor():141] Failed to sample metric: Not Supported
+2023-04-07 02:36:23,534 ERROR   gpu       :54648 [interfaces.py:monitor():141] Failed to sample metric: Not Supported
+2023-04-07 02:36:24,421 DEBUG   HandlerThread:54648 [handler.py:handle_request():144] handle_request: stop_status
+2023-04-07 02:36:24,421 DEBUG   SenderThread:54648 [sender.py:send_request():363] send_request: stop_status
+2023-04-07 02:36:24,570 DEBUG   HandlerThread:54648 [handler.py:handle_request():144] handle_request: status_report
+2023-04-07 02:36:25,551 ERROR   gpu       :54648 [interfaces.py:monitor():141] Failed to sample metric: Not Supported
+2023-04-07 02:36:27,569 ERROR   gpu       :54648 [interfaces.py:monitor():141] Failed to sample metric: Not Supported
+2023-04-07 02:36:29,579 DEBUG   HandlerThread:54648 [handler.py:handle_request():144] handle_request: status_report
+2023-04-07 02:36:29,586 ERROR   gpu       :54648 [interfaces.py:monitor():141] Failed to sample metric: Not Supported
+2023-04-07 02:36:31,604 ERROR   gpu       :54648 [interfaces.py:monitor():141] Failed to sample metric: Not Supported
+2023-04-07 02:36:33,621 ERROR   gpu       :54648 [interfaces.py:monitor():141] Failed to sample metric: Not Supported
+2023-04-07 02:36:34,591 DEBUG   HandlerThread:54648 [handler.py:handle_request():144] handle_request: status_report
+2023-04-07 02:36:35,639 ERROR   gpu       :54648 [interfaces.py:monitor():141] Failed to sample metric: Not Supported
+2023-04-07 02:36:37,660 ERROR   gpu       :54648 [interfaces.py:monitor():141] Failed to sample metric: Not Supported
+2023-04-07 02:36:39,416 DEBUG   HandlerThread:54648 [handler.py:handle_request():144] handle_request: stop_status
+2023-04-07 02:36:39,416 DEBUG   SenderThread:54648 [sender.py:send_request():363] send_request: stop_status
+2023-04-07 02:36:39,755 ERROR   gpu       :54648 [interfaces.py:monitor():141] Failed to sample metric: Not Supported
+2023-04-07 02:36:39,843 DEBUG   HandlerThread:54648 [handler.py:handle_request():144] handle_request: status_report
+2023-04-07 02:36:40,075 DEBUG   SenderThread:54648 [sender.py:send():336] send: telemetry
+2023-04-07 02:36:40,076 DEBUG   SenderThread:54648 [sender.py:send():336] send: config
+2023-04-07 02:36:40,076 DEBUG   SenderThread:54648 [sender.py:send():336] send: config
+2023-04-07 02:36:40,076 DEBUG   SenderThread:54648 [sender.py:send():336] send: config
+2023-04-07 02:36:40,077 DEBUG   SenderThread:54648 [sender.py:send():336] send: telemetry
+2023-04-07 02:36:40,077 DEBUG   SenderThread:54648 [sender.py:send():336] send: run
+2023-04-07 02:36:40,210 INFO    Thread-17 :54648 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Thesis\Domain Adaptation (Unsupervised DA through backpropagation)\wandb\run-20230407_023608-sxbptxz7\files\config.yaml
+2023-04-07 02:36:40,254 INFO    SenderThread:54648 [sender.py:send_run():955] updated run: sxbptxz7
+2023-04-07 02:36:40,254 DEBUG   SenderThread:54648 [sender.py:send():336] send: telemetry
+2023-04-07 02:36:41,765 ERROR   gpu       :54648 [interfaces.py:monitor():141] Failed to sample metric: Not Supported
+2023-04-07 02:36:42,212 INFO    Thread-17 :54648 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Thesis\Domain Adaptation (Unsupervised DA through backpropagation)\wandb\run-20230407_023608-sxbptxz7\files\output.log
+2023-04-07 02:36:43,770 ERROR   gpu       :54648 [interfaces.py:monitor():141] Failed to sample metric: Not Supported
+2023-04-07 02:36:45,257 DEBUG   HandlerThread:54648 [handler.py:handle_request():144] handle_request: status_report
+2023-04-07 02:36:45,777 ERROR   gpu       :54648 [interfaces.py:monitor():141] Failed to sample metric: Not Supported
+2023-04-07 02:36:47,785 ERROR   gpu       :54648 [interfaces.py:monitor():141] Failed to sample metric: Not Supported
+2023-04-07 02:36:49,793 ERROR   gpu       :54648 [interfaces.py:monitor():141] Failed to sample metric: Not Supported
+2023-04-07 02:36:50,261 DEBUG   HandlerThread:54648 [handler.py:handle_request():144] handle_request: status_report
+2023-04-07 02:36:51,799 ERROR   gpu       :54648 [interfaces.py:monitor():141] Failed to sample metric: Not Supported
+2023-04-07 02:36:53,494 DEBUG   SenderThread:54648 [sender.py:send():336] send: exit
+2023-04-07 02:36:53,494 INFO    SenderThread:54648 [sender.py:send_exit():559] handling exit code: 1
+2023-04-07 02:36:53,494 INFO    SenderThread:54648 [sender.py:send_exit():561] handling runtime: 44
+2023-04-07 02:36:53,496 INFO    SenderThread:54648 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-04-07 02:36:53,496 INFO    SenderThread:54648 [sender.py:send_exit():567] send defer
+2023-04-07 02:36:53,496 DEBUG   HandlerThread:54648 [handler.py:handle_request():144] handle_request: defer
+2023-04-07 02:36:53,496 INFO    HandlerThread:54648 [handler.py:handle_request_defer():170] handle defer: 0
+2023-04-07 02:36:53,496 DEBUG   SenderThread:54648 [sender.py:send_request():363] send_request: defer
+2023-04-07 02:36:53,497 INFO    SenderThread:54648 [sender.py:send_request_defer():583] handle sender defer: 0
+2023-04-07 02:36:53,497 INFO    SenderThread:54648 [sender.py:transition_state():587] send defer: 1
+2023-04-07 02:36:53,497 DEBUG   HandlerThread:54648 [handler.py:handle_request():144] handle_request: defer
+2023-04-07 02:36:53,497 INFO    HandlerThread:54648 [handler.py:handle_request_defer():170] handle defer: 1
+2023-04-07 02:36:53,497 DEBUG   SenderThread:54648 [sender.py:send_request():363] send_request: defer
+2023-04-07 02:36:53,497 INFO    SenderThread:54648 [sender.py:send_request_defer():583] handle sender defer: 1
+2023-04-07 02:36:53,497 INFO    SenderThread:54648 [sender.py:transition_state():587] send defer: 2
+2023-04-07 02:36:53,497 DEBUG   HandlerThread:54648 [handler.py:handle_request():144] handle_request: defer
+2023-04-07 02:36:53,497 INFO    HandlerThread:54648 [handler.py:handle_request_defer():170] handle defer: 2
+2023-04-07 02:36:53,497 INFO    HandlerThread:54648 [system_monitor.py:finish():193] Stopping system monitor
+2023-04-07 02:36:53,498 DEBUG   SystemMonitor:54648 [system_monitor.py:_start():161] Starting system metrics aggregation loop
+2023-04-07 02:36:53,498 DEBUG   SystemMonitor:54648 [system_monitor.py:_start():168] Finished system metrics aggregation loop
+2023-04-07 02:36:53,498 DEBUG   SystemMonitor:54648 [system_monitor.py:_start():172] Publishing last batch of metrics
+2023-04-07 02:36:53,499 INFO    HandlerThread:54648 [interfaces.py:finish():199] Joined cpu monitor
+2023-04-07 02:36:53,514 INFO    HandlerThread:54648 [interfaces.py:finish():199] Joined disk monitor
+2023-04-07 02:36:53,568 INFO    HandlerThread:54648 [interfaces.py:finish():199] Joined gpu monitor
+2023-04-07 02:36:53,568 INFO    HandlerThread:54648 [interfaces.py:finish():199] Joined memory monitor
+2023-04-07 02:36:53,568 INFO    HandlerThread:54648 [interfaces.py:finish():199] Joined network monitor
+2023-04-07 02:36:53,569 DEBUG   SenderThread:54648 [sender.py:send_request():363] send_request: defer
+2023-04-07 02:36:53,569 INFO    SenderThread:54648 [sender.py:send_request_defer():583] handle sender defer: 2
+2023-04-07 02:36:53,569 INFO    SenderThread:54648 [sender.py:transition_state():587] send defer: 3
+2023-04-07 02:36:53,569 DEBUG   SenderThread:54648 [sender.py:send():336] send: stats
+2023-04-07 02:36:53,569 DEBUG   HandlerThread:54648 [handler.py:handle_request():144] handle_request: defer
+2023-04-07 02:36:53,570 INFO    HandlerThread:54648 [handler.py:handle_request_defer():170] handle defer: 3
+2023-04-07 02:36:53,570 DEBUG   SenderThread:54648 [sender.py:send_request():363] send_request: defer
+2023-04-07 02:36:53,570 INFO    SenderThread:54648 [sender.py:send_request_defer():583] handle sender defer: 3
+2023-04-07 02:36:53,570 INFO    SenderThread:54648 [sender.py:transition_state():587] send defer: 4
+2023-04-07 02:36:53,570 DEBUG   HandlerThread:54648 [handler.py:handle_request():144] handle_request: defer
+2023-04-07 02:36:53,570 INFO    HandlerThread:54648 [handler.py:handle_request_defer():170] handle defer: 4
+2023-04-07 02:36:53,571 DEBUG   SenderThread:54648 [sender.py:send_request():363] send_request: defer
+2023-04-07 02:36:53,571 INFO    SenderThread:54648 [sender.py:send_request_defer():583] handle sender defer: 4
+2023-04-07 02:36:53,571 INFO    SenderThread:54648 [sender.py:transition_state():587] send defer: 5
+2023-04-07 02:36:53,571 DEBUG   HandlerThread:54648 [handler.py:handle_request():144] handle_request: defer
+2023-04-07 02:36:53,571 INFO    HandlerThread:54648 [handler.py:handle_request_defer():170] handle defer: 5
+2023-04-07 02:36:53,571 DEBUG   SenderThread:54648 [sender.py:send():336] send: summary
+2023-04-07 02:36:53,571 INFO    SenderThread:54648 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-04-07 02:36:53,572 DEBUG   SenderThread:54648 [sender.py:send_request():363] send_request: defer
+2023-04-07 02:36:53,572 INFO    SenderThread:54648 [sender.py:send_request_defer():583] handle sender defer: 5
+2023-04-07 02:36:53,572 INFO    SenderThread:54648 [sender.py:transition_state():587] send defer: 6
+2023-04-07 02:36:53,572 DEBUG   HandlerThread:54648 [handler.py:handle_request():144] handle_request: defer
+2023-04-07 02:36:53,572 INFO    HandlerThread:54648 [handler.py:handle_request_defer():170] handle defer: 6
+2023-04-07 02:36:53,572 DEBUG   SenderThread:54648 [sender.py:send_request():363] send_request: defer
+2023-04-07 02:36:53,572 INFO    SenderThread:54648 [sender.py:send_request_defer():583] handle sender defer: 6
+2023-04-07 02:36:53,574 DEBUG   HandlerThread:54648 [handler.py:handle_request():144] handle_request: status_report
+2023-04-07 02:36:53,738 INFO    SenderThread:54648 [sender.py:transition_state():587] send defer: 7
+2023-04-07 02:36:53,738 DEBUG   HandlerThread:54648 [handler.py:handle_request():144] handle_request: defer
+2023-04-07 02:36:53,738 INFO    HandlerThread:54648 [handler.py:handle_request_defer():170] handle defer: 7
+2023-04-07 02:36:53,738 DEBUG   SenderThread:54648 [sender.py:send_request():363] send_request: defer
+2023-04-07 02:36:53,739 INFO    SenderThread:54648 [sender.py:send_request_defer():583] handle sender defer: 7
+2023-04-07 02:36:54,220 INFO    Thread-17 :54648 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Thesis\Domain Adaptation (Unsupervised DA through backpropagation)\wandb\run-20230407_023608-sxbptxz7\files\config.yaml
+2023-04-07 02:36:54,220 INFO    Thread-17 :54648 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Thesis\Domain Adaptation (Unsupervised DA through backpropagation)\wandb\run-20230407_023608-sxbptxz7\files\wandb-summary.json
+2023-04-07 02:36:54,572 DEBUG   HandlerThread:54648 [handler.py:handle_request():144] handle_request: poll_exit
+2023-04-07 02:36:55,863 INFO    SenderThread:54648 [sender.py:transition_state():587] send defer: 8
+2023-04-07 02:36:55,863 DEBUG   SenderThread:54648 [sender.py:send_request():363] send_request: poll_exit
+2023-04-07 02:36:55,863 DEBUG   HandlerThread:54648 [handler.py:handle_request():144] handle_request: defer
+2023-04-07 02:36:55,864 INFO    HandlerThread:54648 [handler.py:handle_request_defer():170] handle defer: 8
+2023-04-07 02:36:55,864 DEBUG   SenderThread:54648 [sender.py:send_request():363] send_request: defer
+2023-04-07 02:36:55,864 INFO    SenderThread:54648 [sender.py:send_request_defer():583] handle sender defer: 8
+2023-04-07 02:36:55,864 INFO    SenderThread:54648 [sender.py:transition_state():587] send defer: 9
+2023-04-07 02:36:55,864 DEBUG   HandlerThread:54648 [handler.py:handle_request():144] handle_request: defer
+2023-04-07 02:36:55,864 INFO    HandlerThread:54648 [handler.py:handle_request_defer():170] handle defer: 9
+2023-04-07 02:36:55,864 DEBUG   SenderThread:54648 [sender.py:send_request():363] send_request: defer
+2023-04-07 02:36:55,864 INFO    SenderThread:54648 [sender.py:send_request_defer():583] handle sender defer: 9
+2023-04-07 02:36:55,864 INFO    SenderThread:54648 [dir_watcher.py:finish():365] shutting down directory watcher
+2023-04-07 02:36:56,221 INFO    SenderThread:54648 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\Thesis\Domain Adaptation (Unsupervised DA through backpropagation)\wandb\run-20230407_023608-sxbptxz7\files\output.log
+2023-04-07 02:36:56,222 INFO    SenderThread:54648 [dir_watcher.py:finish():395] scan: D:\Thesis\Domain Adaptation (Unsupervised DA through backpropagation)\wandb\run-20230407_023608-sxbptxz7\files
+2023-04-07 02:36:56,222 INFO    SenderThread:54648 [dir_watcher.py:finish():409] scan save: D:\Thesis\Domain Adaptation (Unsupervised DA through backpropagation)\wandb\run-20230407_023608-sxbptxz7\files\config.yaml config.yaml
+2023-04-07 02:36:56,222 INFO    SenderThread:54648 [dir_watcher.py:finish():409] scan save: D:\Thesis\Domain Adaptation (Unsupervised DA through backpropagation)\wandb\run-20230407_023608-sxbptxz7\files\output.log output.log
+2023-04-07 02:36:56,222 INFO    SenderThread:54648 [dir_watcher.py:finish():409] scan save: D:\Thesis\Domain Adaptation (Unsupervised DA through backpropagation)\wandb\run-20230407_023608-sxbptxz7\files\requirements.txt requirements.txt
+2023-04-07 02:36:56,225 INFO    SenderThread:54648 [dir_watcher.py:finish():409] scan save: D:\Thesis\Domain Adaptation (Unsupervised DA through backpropagation)\wandb\run-20230407_023608-sxbptxz7\files\wandb-metadata.json wandb-metadata.json
+2023-04-07 02:36:56,225 INFO    SenderThread:54648 [dir_watcher.py:finish():409] scan save: D:\Thesis\Domain Adaptation (Unsupervised DA through backpropagation)\wandb\run-20230407_023608-sxbptxz7\files\wandb-summary.json wandb-summary.json
+2023-04-07 02:36:56,227 INFO    SenderThread:54648 [sender.py:transition_state():587] send defer: 10
+2023-04-07 02:36:56,229 DEBUG   HandlerThread:54648 [handler.py:handle_request():144] handle_request: defer
+2023-04-07 02:36:56,230 INFO    HandlerThread:54648 [handler.py:handle_request_defer():170] handle defer: 10
+2023-04-07 02:36:56,231 DEBUG   SenderThread:54648 [sender.py:send_request():363] send_request: defer
+2023-04-07 02:36:56,231 INFO    SenderThread:54648 [sender.py:send_request_defer():583] handle sender defer: 10
+2023-04-07 02:36:56,232 INFO    SenderThread:54648 [file_pusher.py:finish():164] shutting down file pusher
+2023-04-07 02:36:56,661 INFO    wandb-upload_1:54648 [upload_job.py:push():138] Uploaded file D:\Thesis\Domain Adaptation (Unsupervised DA through backpropagation)\wandb\run-20230407_023608-sxbptxz7\files\output.log
+2023-04-07 02:36:56,772 INFO    wandb-upload_0:54648 [upload_job.py:push():138] Uploaded file D:\Thesis\Domain Adaptation (Unsupervised DA through backpropagation)\wandb\run-20230407_023608-sxbptxz7\files\config.yaml
+2023-04-07 02:36:56,781 INFO    wandb-upload_3:54648 [upload_job.py:push():138] Uploaded file D:\Thesis\Domain Adaptation (Unsupervised DA through backpropagation)\wandb\run-20230407_023608-sxbptxz7\files\wandb-summary.json
+2023-04-07 02:36:56,792 INFO    wandb-upload_2:54648 [upload_job.py:push():138] Uploaded file D:\Thesis\Domain Adaptation (Unsupervised DA through backpropagation)\wandb\run-20230407_023608-sxbptxz7\files\requirements.txt
+2023-04-07 02:36:56,992 INFO    Thread-16 :54648 [sender.py:transition_state():587] send defer: 11
+2023-04-07 02:36:56,992 DEBUG   HandlerThread:54648 [handler.py:handle_request():144] handle_request: defer
+2023-04-07 02:36:56,992 INFO    HandlerThread:54648 [handler.py:handle_request_defer():170] handle defer: 11
+2023-04-07 02:36:56,992 DEBUG   SenderThread:54648 [sender.py:send_request():363] send_request: defer
+2023-04-07 02:36:56,992 INFO    SenderThread:54648 [sender.py:send_request_defer():583] handle sender defer: 11
+2023-04-07 02:36:56,992 INFO    SenderThread:54648 [file_pusher.py:join():169] waiting for file pusher
+2023-04-07 02:36:56,994 INFO    SenderThread:54648 [sender.py:transition_state():587] send defer: 12
+2023-04-07 02:36:56,994 DEBUG   HandlerThread:54648 [handler.py:handle_request():144] handle_request: defer
+2023-04-07 02:36:56,994 INFO    HandlerThread:54648 [handler.py:handle_request_defer():170] handle defer: 12
+2023-04-07 02:36:56,994 DEBUG   SenderThread:54648 [sender.py:send_request():363] send_request: defer
+2023-04-07 02:36:56,994 INFO    SenderThread:54648 [sender.py:send_request_defer():583] handle sender defer: 12
+2023-04-07 02:36:57,265 INFO    SenderThread:54648 [sender.py:transition_state():587] send defer: 13
+2023-04-07 02:36:57,266 DEBUG   HandlerThread:54648 [handler.py:handle_request():144] handle_request: defer
+2023-04-07 02:36:57,266 INFO    HandlerThread:54648 [handler.py:handle_request_defer():170] handle defer: 13
+2023-04-07 02:36:57,266 DEBUG   SenderThread:54648 [sender.py:send_request():363] send_request: defer
+2023-04-07 02:36:57,266 INFO    SenderThread:54648 [sender.py:send_request_defer():583] handle sender defer: 13
+2023-04-07 02:36:57,266 INFO    SenderThread:54648 [sender.py:transition_state():587] send defer: 14
+2023-04-07 02:36:57,266 DEBUG   HandlerThread:54648 [handler.py:handle_request():144] handle_request: defer
+2023-04-07 02:36:57,266 DEBUG   SenderThread:54648 [sender.py:send():336] send: final
+2023-04-07 02:36:57,266 INFO    HandlerThread:54648 [handler.py:handle_request_defer():170] handle defer: 14
+2023-04-07 02:36:57,266 DEBUG   SenderThread:54648 [sender.py:send():336] send: footer
+2023-04-07 02:36:57,266 DEBUG   SenderThread:54648 [sender.py:send_request():363] send_request: defer
+2023-04-07 02:36:57,266 INFO    SenderThread:54648 [sender.py:send_request_defer():583] handle sender defer: 14
+2023-04-07 02:36:57,267 DEBUG   HandlerThread:54648 [handler.py:handle_request():144] handle_request: poll_exit
+2023-04-07 02:36:57,267 DEBUG   HandlerThread:54648 [handler.py:handle_request():144] handle_request: server_info
+2023-04-07 02:36:57,267 DEBUG   HandlerThread:54648 [handler.py:handle_request():144] handle_request: get_summary
+2023-04-07 02:36:57,267 DEBUG   SenderThread:54648 [sender.py:send_request():363] send_request: poll_exit
+2023-04-07 02:36:57,267 DEBUG   HandlerThread:54648 [handler.py:handle_request():144] handle_request: sampled_history
+2023-04-07 02:36:57,268 DEBUG   SenderThread:54648 [sender.py:send_request():363] send_request: server_info
+2023-04-07 02:36:57,564 INFO    MainThread:54648 [wandb_run.py:_footer_history_summary_info():3422] rendering history
+2023-04-07 02:36:57,565 INFO    MainThread:54648 [wandb_run.py:_footer_history_summary_info():3454] rendering summary
+2023-04-07 02:36:57,565 INFO    MainThread:54648 [wandb_run.py:_footer_sync_info():3380] logging synced files
+2023-04-07 02:36:57,565 DEBUG   HandlerThread:54648 [handler.py:handle_request():144] handle_request: shutdown
+2023-04-07 02:36:57,565 INFO    HandlerThread:54648 [handler.py:finish():842] shutting down handler
+2023-04-07 02:36:58,268 INFO    WriterThread:54648 [datastore.py:close():298] close: D:\Thesis\Domain Adaptation (Unsupervised DA through backpropagation)\wandb\run-20230407_023608-sxbptxz7\run-sxbptxz7.wandb
+2023-04-07 02:36:58,564 INFO    SenderThread:54648 [sender.py:finish():1504] shutting down sender
+2023-04-07 02:36:58,564 INFO    SenderThread:54648 [file_pusher.py:finish():164] shutting down file pusher
+2023-04-07 02:36:58,565 INFO    SenderThread:54648 [file_pusher.py:join():169] waiting for file pusher

@@ -1,0 +1,17 @@
+Experiment Details
+Training Data: finance Testing Data: medicine Training Sequnce Length: 128 Testing Sequence Length: 32
+Some weights of the model checkpoint at bert-base-uncased were not used when initializing BertModel: ['cls.seq_relationship.weight', 'cls.predictions.decoder.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.transform.dense.bias', 'cls.predictions.bias', 'cls.seq_relationship.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.dense.weight']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+  0%|                                                                                                                                                                                     | 0/3 [00:00<?, ?it/s]
+  0%|                                                                                                                                                                                     | 0/3 [00:13<?, ?it/s]
+Traceback (most recent call last):
+  File "D:\Thesis\Domain Adaptation (Unsupervised DA through backpropagation)\main.py", line 473, in <module>
+    val_report = classification_report(val_y, preds_val, output_dict=True)
+  File "C:\Users\mural\Envs\ML\lib\site-packages\sklearn\metrics\_classification.py", line 2132, in classification_report
+    y_type, y_true, y_pred = _check_targets(y_true, y_pred)
+  File "C:\Users\mural\Envs\ML\lib\site-packages\sklearn\metrics\_classification.py", line 84, in _check_targets
+    check_consistent_length(y_true, y_pred)
+  File "C:\Users\mural\Envs\ML\lib\site-packages\sklearn\utils\validation.py", line 387, in check_consistent_length
+    raise ValueError(
+ValueError: Found input variables with inconsistent numbers of samples: [1927, 2]

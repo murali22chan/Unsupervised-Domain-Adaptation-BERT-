@@ -1,0 +1,6 @@
+Experiment Details
+Training Data: finance Testing Data: finance Training Sequnce Length: 128 Testing Sequence Length: 32
+Traceback (most recent call last):
+  File "D:\Thesis\Domain Adaptation (Unsupervised DA through backpropagation)\main.py", line 119, in <module>
+    train_df = pd.read_csv(args.trainDomain + "_full.csv")
+NameError: name 'pd' is not defined
