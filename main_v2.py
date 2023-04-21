@@ -15,7 +15,7 @@ from sklearn.metrics import classification_report
 from sklearn.metrics import accuracy_score
 from sklearn.metrics import confusion_matrix
 from torch.utils.data import TensorDataset, DataLoader, RandomSampler, SequentialSampler
-import plotly.graph_objs as go
+
 
 import warnings
 
@@ -420,8 +420,8 @@ def get_train_accuracy(lager_data_loader, small_data_loader):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('--trainDomain', type=str, default="open_qa")
-    parser.add_argument('--testDomain', type=str, default="wiki_csai")
+    parser.add_argument('--trainDomain', type=str, default="wiki_csai")
+    parser.add_argument('--testDomain', type=str, default="reddit_eli5")
     parser.add_argument('--trainSeqLength', type=int, default="32 ")
     parser.add_argument('--testSeqLength', type=int, default="32")
     parser.add_argument("--is_downsample", action="store_true")
@@ -432,7 +432,7 @@ if __name__ == '__main__':
     trainSequenceLength = args.trainSeqLength
     testSequenceLength = args.testSeqLength
     # log the experiment settings
-    wandb.init(project="domain-adaptation-usda-with-domain-loss-debug", config=args)
+    wandb.init(project="domain-adaptation-usda-with-domain-loss-v2", config=args)
 
     print("Experiment Details")
     print("Training Data: " + str(args.trainDomain) + " Testing Data: " + str(
