@@ -3,4 +3,4 @@
 Implementation of Unsupervised Domain Adpatation Using BERT via Gradient Reversal for Machine Generated Text Detection to Adapt to Different Topics.
 
 ### Architecture Diagram
-<img src="figures/USDA.png">
+<img src="figures/USDA.jpg">
