@@ -7,7 +7,7 @@ Implementation of Unsupervised Domain Adpatation Using BERT via Gradient Reversa
 ```python
 git clone https://github.com/murali22chan/Unsupervised-Domain-Adaptation-BERT-
 ```
-2. Requires PyTorch, HuggingFace. <br>
+2. Requires PyTorch, HuggingFace, Scikit-learn, Pandas and WanDB. <br>
 3. Run **run_experiment.sh** to run the experiment.  <br>
 4. Use **hyperparameters.sh** to run hyperparameter search for alpha and beta values in the architecture. <br>
 
